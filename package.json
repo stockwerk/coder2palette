@@ -1,0 +1,34 @@
+{
+  "name": "coder2palette",
+  "displayName": "Coder2Palette",
+  "description": "Color scheme for Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "stockwerk",
+  "license": "CC0-1.0",
+  "author": {
+      "name": "Andreas Stock",
+      "url": "http://github.com/stockwerk"
+  },
+  "keywords": [
+      "visual studio code",
+      "themes",
+      "color theme",
+      "theming",
+      "extension"
+  ],
+  "engines": {
+      "vscode": "^1.0.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+      "themes": [
+          {
+              "label": "Coder2Palette",
+              "uiTheme": "vs-dark",
+              "path": "./themes/coder2palette.json"
+          }
+      ]
+  }
+}
